@@ -45,9 +45,9 @@ const Navbar = () => {
                             </div>
                             <div className="flex flex-col">
                                 {/* Mobile: text-base font-semibold; Desktop: text-xl font-bold */}
-                                <span className="text-base md:text-xl font-semibold md:font-bold text-gray-900 leading-tight">Dr. Narasimha's</span>
+                                <span className="text-lg md:text-xl xl:text-2xl font-semibold md:font-bold text-gray-900 leading-tight">Dr. Narasimha's</span>
                                 {/* Mobile: text-[10px]; Desktop: text-[11px] */}
-                                <span className="text-[10px] md:text-[11px] uppercase tracking-wider text-medical-600 font-semibold leading-tight">Ayurvedic Sexual & Fertility Clinic</span>
+                                <span className="text-[11px] md:text-[11px] xl:text-xs uppercase tracking-wider text-medical-600 font-semibold leading-tight">Ayurvedic Sexual & Fertility Clinic</span>
                             </div>
                         </Link>
                     </div>

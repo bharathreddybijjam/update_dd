@@ -28,8 +28,8 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                         <div className="flex flex-col items-center md:items-start">
-                            <span className="text-2xl font-bold">Dr. Narasimha's</span>
-                            <span className="text-medical-400 text-sm md:text-[15px] uppercase tracking-widest mt-1">Ayurvedic Sexual & Fertility Clinic</span>
+                            <span className="text-4xl font-bold">Dr. Narasimha's</span>
+                            <span className="text-medical-400 text-sm md:text-[17px] uppercase tracking-widest mt-1">Ayurvedic Sexual & Fertility Clinic</span>
                         </div>
 
                         <div className="flex flex-wrap xl:flex-nowrap justify-center gap-x-8 gap-y-3 text-[15px] md:text-base font-medium text-medical-200">
