@@ -44,7 +44,7 @@ const Highlights = () => {
                             {/* Mobile: text-base font-semibold; Desktop: text-xl font-bold */}
                             <h3 className="text-base md:text-xl font-semibold md:font-bold text-gray-900 mb-1.5 md:mb-3">{item.title}</h3>
                             {/* Mobile: text-xs; Desktop: text-sm */}
-                            <p className="text-gray-500 leading-relaxed text-xs md:text-sm">
+                            <p className="text-gray-500 leading-relaxed text-base md:text-[17px]">
                                 {item.description}
                             </p>
                         </div>

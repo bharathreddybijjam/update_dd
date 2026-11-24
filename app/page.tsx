@@ -29,10 +29,10 @@ export default function Home() {
                     <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                         <div className="flex flex-col items-center md:items-start">
                             <span className="text-2xl font-bold">Dr. Narasimha's</span>
-                            <span className="text-medical-400 text-xs uppercase tracking-widest mt-1">Ayurvedic Sexual & Fertility Clinic</span>
+                            <span className="text-medical-400 text-sm md:text-[15px] uppercase tracking-widest mt-1">Ayurvedic Sexual & Fertility Clinic</span>
                         </div>
 
-                        <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm font-medium text-medical-200">
+                        <div className="flex flex-wrap xl:flex-nowrap justify-center gap-x-8 gap-y-3 text-[15px] md:text-base font-medium text-medical-200">
                             <a href="#home" className="hover:text-white transition-colors">Home</a>
                             <a href="#about" className="hover:text-white transition-colors">About</a>
                             <a href="#speciality" className="hover:text-white transition-colors">Speciality</a>
@@ -40,7 +40,7 @@ export default function Home() {
                             <PrivacyModal />
                         </div>
 
-                        <p className="text-medical-400 text-xs">
+                        <p className="text-medical-400 text-sm md:text-[15px]">
                             © 2026 Dr. Narasimha Clinic. All rights reserved.
                         </p>
                     </div>

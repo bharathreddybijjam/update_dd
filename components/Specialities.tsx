@@ -39,9 +39,9 @@ const Specialities = () => {
     return (
         <Container id="speciality" className="bg-medical-50/30">
             <div className="text-center mb-8 md:mb-16">
-                <h2 className="text-sm font-bold text-medical-600 uppercase tracking-widest mb-3">Our Expertise</h2>
+                <h2 className="text-sm md:text-[15px] font-bold text-medical-600 uppercase tracking-widest mb-3">Our Expertise</h2>
                 <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">Specialized Clinical Care</h3>
-                <p className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto">
+                <p className="text-gray-500 text-base md:text-[18px] leading-relaxed max-w-2xl mx-auto">
                     We offer focused Ayurvedic solutions for a wide range of male reproductive and sexual health concerns.
                 </p>
             </div>
@@ -75,7 +75,7 @@ const Specialities = () => {
 
                         {/* ── Description below image ── */}
                         <div className="mt-3 px-4 pb-4 md:px-5 md:pb-5">
-                            <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
+                            <p className="text-base md:text-[17px] text-gray-600 leading-relaxed">
                                 {item.description}
                             </p>
 

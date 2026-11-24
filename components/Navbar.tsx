@@ -59,7 +59,7 @@ const Navbar = () => {
                                 <Link
                                     key={link.name}
                                     href={link.href}
-                                    className="text-gray-600 hover:text-medical-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 relative group hover:opacity-90"
+                                    className="text-gray-600 hover:text-medical-600 px-3 py-2 rounded-md text-[15px] lg:text-[17px] font-medium transition-all duration-200 relative group hover:opacity-90"
                                 >
                                     {link.name}
                                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-medical-600 transition-all duration-300 group-hover:w-full"></span>
@@ -90,7 +90,7 @@ const Navbar = () => {
                             href={link.href}
                             onClick={() => setIsOpen(false)}
                             /* min-h-[44px] for proper touch target */
-                            className="text-gray-700 hover:text-medical-600 hover:bg-medical-50 flex items-center px-4 min-h-[44px] text-sm font-medium border-b border-gray-50 last:border-0 rounded-lg transition-all duration-200 active:scale-95"
+                            className="text-gray-700 hover:text-medical-600 hover:bg-medical-50 flex items-center px-4 min-h-[44px] text-base font-medium border-b border-gray-50 last:border-0 rounded-lg transition-all duration-200 active:scale-95"
                         >
                             {link.name}
                         </Link>

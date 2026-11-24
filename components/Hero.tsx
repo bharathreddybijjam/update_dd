@@ -53,7 +53,7 @@ const Hero = () => {
                         {/* Badge */}
                         <div className="inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm border border-medical-100 mb-3 lg:mb-6 animate-slide-up">
                             <span className="w-2 h-2 bg-medical-500 rounded-full animate-pulse" />
-                            <span className="text-xs font-bold text-medical-800 uppercase tracking-widest">Advanced Ayurvedic Care</span>
+                            <span className="text-sm md:text-[15px] font-bold text-medical-800 uppercase tracking-widest">Advanced Ayurvedic Care</span>
                         </div>
 
                         {/* Heading — mobile: text-3xl font-semibold leading-tight */}
@@ -94,7 +94,7 @@ const Hero = () => {
                         </div>
 
                         {/* Trust indicators */}
-                        <div className="mt-4 lg:mt-6 flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-2 text-xs text-gray-500 animate-slide-up">
+                        <div className="mt-4 lg:mt-6 flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-2 text-sm md:text-[15px] text-gray-500 animate-slide-up">
                             <span className="flex items-center gap-1"><span className="text-ayurveda-600 font-bold">✔</span> 25+ Years Experience</span>
                             {/* <span className="flex items-center gap-1"><span className="text-ayurveda-600 font-bold">✔</span> 50,000+ Happy Patients</span> */}
                             <span className="flex items-center gap-1"><span className="text-ayurveda-600 font-bold">✔</span> 100% Confidential</span>

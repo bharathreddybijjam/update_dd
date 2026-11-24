@@ -76,9 +76,9 @@ const Gallery = () => {
         <>
             <Container id="gallery" className="bg-medical-50/20">
                 <div className="text-center mb-8 md:mb-16">
-                    <h2 className="text-sm font-bold text-medical-600 uppercase tracking-widest mb-3">Our Facility</h2>
+                    <h2 className="text-sm md:text-[15px] font-bold text-medical-600 uppercase tracking-widest mb-3">Our Facility</h2>
                     <h3 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-3">Clinic Gallery</h3>
-                    <p className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto">
+                    <p className="text-gray-500 text-base md:text-[18px] leading-relaxed max-w-2xl mx-auto">
                         A glimpse into our professional and sterile clinic environment designed for patient comfort.
                     </p>
                 </div>

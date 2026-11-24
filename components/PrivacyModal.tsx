@@ -68,7 +68,7 @@ const PrivacyModal = () => {
                 type="button"
                 onClick={open}
                 aria-haspopup="dialog"
-                className="hover:text-white transition-colors"
+                className="hover:text-white transition-colors whitespace-nowrap"
             >
                 Privacy &amp; Confidentiality
             </button>
@@ -104,7 +104,7 @@ const PrivacyModal = () => {
                             Privacy &amp; Confidentiality
                         </h3>
 
-                        <div className="space-y-3 md:space-y-4 text-gray-600 text-sm md:text-base leading-relaxed">
+                        <div className="space-y-3 md:space-y-4 text-gray-600 text-base md:text-[17px] leading-relaxed">
                             <p>
                                 Your privacy matters to us. We respect the confidentiality of your personal information and understand the sensitive nature of reproductive health concerns.
                             </p>

@@ -38,8 +38,8 @@ const About = () => {
                                     25+
                                 </div>
                                 <div>
-                                    <p className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">Years of</p>
-                                    <p className="text-sm font-bold text-gray-900">Experience</p>
+                                    <p className="text-[13px] uppercase tracking-wider text-gray-500 font-bold">Years of</p>
+                                    <p className="text-base font-bold text-gray-900">Experience</p>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const About = () => {
 
                 {/* Right: Content */}
                 <div className="w-full lg:w-1/2">
-                    <span className="inline-block px-4 py-1.5 bg-ayurveda-50 text-ayurveda-700 text-xs font-bold rounded-full mb-4 lg:mb-6 border border-ayurveda-100">
+                    <span className="inline-block px-4 py-1.5 bg-ayurveda-50 text-ayurveda-700 text-sm md:text-[15px] font-bold rounded-full mb-4 lg:mb-6 border border-ayurveda-100">
                         Meet Our Specialist
                     </span>
                     {/* Mobile: text-2xl font-semibold; Desktop: text-5xl font-extrabold */}
@@ -58,14 +58,14 @@ const About = () => {
                     </h2>
 
                     {/* Mobile: text-sm font-semibold */}
-                    <p className="text-sm md:text-lg text-medical-800 font-semibold mb-4 lg:mb-6">
-                        Ayurvedic Sexologist & Male fertility Doctor in Hyderabad
+                    <p className="text-base md:text-[19px] text-medical-800 font-semibold mb-4 lg:mb-6">
+                        Ayurvedic Sexual Health & Male fertility Doctor in Hyderabad
                     </p>
 
                     {/* Paragraph spacing: space-y-4 */}
-                    <div className="space-y-4 text-gray-600 leading-relaxed mb-6 lg:mb-10 text-sm md:text-[0.97rem]">
+                    <div className="space-y-4 text-gray-600 leading-relaxed mb-6 lg:mb-10 text-base md:text-[18px]">
                         <p>
-                            Dr. M. Narasimha is one of Hyderabad's most trusted Ayurvedic Sexologist health and Male fertility Doctor, with over 25 years of experience in treating male sexual health and reproductive concerns.
+                            Dr. M. Narasimha is one of Hyderabad's most trusted Ayurvedic Sexual Health and Male fertility Doctor, with over 25 years of experience in treating male sexual health and reproductive concerns.
                         </p>
                         <p>
                             He is widely recognized in South India for his focused expertise in male sexual disorders, infertility treatment, and comprehensive Vajikarna therapies. Dr. M. Narasimha holds BAMS and MD in Ayurveda, with additional specialization in MS – Sexuality & Sexual counselling.
@@ -78,7 +78,7 @@ const About = () => {
                     {/* Credential pills: rounded-full px-4 py-2 text-xs; min-h-[44px] tap area */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 md:gap-3">
                         {credentials.map((item, index) => (
-                            <div key={index} className="flex items-center gap-2 text-xs md:text-sm text-medical-800 font-semibold bg-white/90 border border-medical-100 rounded-full px-4 py-2 shadow-sm min-h-[44px] transition-all duration-200 hover:shadow-md hover:border-medical-200">
+                            <div key={index} className="flex items-center gap-2 text-sm md:text-[16px] text-medical-800 font-semibold bg-white/90 border border-medical-100 rounded-2xl px-4 py-2 shadow-sm min-h-[44px] transition-all duration-200 hover:shadow-md hover:border-medical-200">
                                 <CheckCircle2 className="w-4 h-4 text-ayurveda-500 flex-shrink-0" />
                                 <span>{item}</span>
                             </div>

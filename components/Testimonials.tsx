@@ -27,9 +27,9 @@ const Testimonials = () => {
     return (
         <Container id="testimonials">
             <div className="text-center mb-8 md:mb-16">
-                <h2 className="text-sm font-bold text-medical-600 uppercase tracking-widest mb-3">Patient Trust</h2>
+                <h2 className="text-sm md:text-[15px] font-bold text-medical-600 uppercase tracking-widest mb-3">Patient Trust</h2>
                 <h3 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-3">What Our Patients Say</h3>
-                <p className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto">
+                <p className="text-gray-500 text-base md:text-[18px] leading-relaxed max-w-2xl mx-auto">
                     We pride ourselves on our reputation. Check out our verified reviews across major healthcare and local listing platforms.
                 </p>
             </div>
@@ -72,11 +72,11 @@ const Testimonials = () => {
                         </div>
 
                         {/* Tagline — mobile text-xs */}
-                        <p className="text-gray-600 text-xs md:text-base font-medium leading-relaxed mb-3 md:mb-6 group-hover:text-gray-900 transition-colors duration-200">
+                        <p className="text-gray-600 text-base md:text-[17px] font-medium leading-relaxed mb-3 md:mb-6 group-hover:text-gray-900 transition-colors duration-200">
                             "{item.tagline}"
                         </p>
 
-                        <div className="flex items-center text-xs md:text-sm font-bold text-medical-600 transition-all duration-200 hover:opacity-80">
+                        <div className="flex items-center text-sm md:text-[15px] font-bold text-medical-600 transition-all duration-200 hover:opacity-80">
                             <span>View Reviews</span>
                             <ExternalLink className="w-3.5 h-3.5 md:w-4 md:h-4 ml-1.5 group-hover:translate-x-1 transition-transform duration-200" />
                         </div>

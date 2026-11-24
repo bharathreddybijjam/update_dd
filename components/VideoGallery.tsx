@@ -47,7 +47,7 @@ const VideoGallery = () => {
                     <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-3">
                         Videos
                     </h2>
-                    <p className="text-gray-500 text-sm md:text-base max-w-2xl mx-auto">
+                    <p className="text-gray-500 text-base md:text-[18px] leading-relaxed max-w-2xl mx-auto">
                         Watch Dr. Narasimha’s expert interviews and media features on male health and fertility care.
                     </p>
                 </div>
@@ -126,7 +126,7 @@ const VideoGallery = () => {
                         href={youtubeUrl(activeVideoId)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="absolute bottom-6 text-white/70 text-xs hover:text-white underline transition-colors"
+                        className="absolute bottom-6 text-white/70 text-sm hover:text-white underline transition-colors"
                         onClick={(e) => e.stopPropagation()}
                     >
                         Open on YouTube ↗

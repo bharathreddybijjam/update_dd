@@ -12,7 +12,7 @@ const FloatingButtons = () => {
                 aria-label="Call Now"
             >
                 <Phone className="w-5 h-5 md:w-6 md:h-6" />
-                <span className="absolute right-full mr-3 md:mr-4 bg-gray-900/90 text-white text-[10px] font-bold px-2.5 py-1.5 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap backdrop-blur-sm">
+                <span className="absolute right-full mr-3 md:mr-4 bg-gray-900/90 text-white text-sm font-bold px-2.5 py-1.5 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap backdrop-blur-sm">
                     Call Us
                 </span>
             </a>
@@ -26,7 +26,7 @@ const FloatingButtons = () => {
                 aria-label="WhatsApp Us"
             >
                 <MessageCircle className="w-5 h-5 md:w-6 md:h-6" />
-                <span className="absolute right-full mr-3 md:mr-4 bg-gray-900/90 text-white text-[10px] font-bold px-2.5 py-1.5 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap backdrop-blur-sm">
+                <span className="absolute right-full mr-3 md:mr-4 bg-gray-900/90 text-white text-sm font-bold px-2.5 py-1.5 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap backdrop-blur-sm">
                     WhatsApp Us
                 </span>
             </a>

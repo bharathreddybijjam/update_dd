@@ -35,7 +35,7 @@ const Contact = () => {
                         {/* Mobile: text-2xl; Desktop: text-3xl */}
                         <h3 className="text-2xl md:text-3xl font-extrabold mb-3 md:mb-8">Contact Information</h3>
                         {/* Mobile: text-sm; Desktop: text-lg */}
-                        <p className="text-medical-100 mb-6 md:mb-12 text-sm md:text-lg leading-relaxed">
+                        <p className="text-medical-100 mb-6 md:mb-12 text-base md:text-[18px] leading-relaxed">
                             Feel free to reach out to us for any queries or to book an appointment.
                         </p>
 
@@ -47,8 +47,8 @@ const Contact = () => {
                                     <MapPin className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-sm md:text-xl mb-0.5">Dr. Narasimha's Ayurvedic Speciality Clinic</h4>
-                                    <p className="text-medical-100 text-xs md:text-sm leading-relaxed">
+                                    <h4 className="font-bold text-base md:text-xl mb-0.5">Dr. Narasimha's Ayurvedic Speciality Clinic</h4>
+                                    <p className="text-medical-100 text-base md:text-[17px] leading-relaxed">
                                         Plot No 11 B, 13-1-208/1<br /> Balaji Swarnapur, Opposite Manasa <br />Eye Hospital, Mothinagar,<br /> Hyderabad-500018, Telangana
                                     </p>
                                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                                     <Phone className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-sm md:text-xl mb-0.5">Phone Number</h4>
+                                    <h4 className="font-bold text-base md:text-xl mb-0.5">Phone Number</h4>
                                     <a href="tel:9246564433" className="text-xl md:text-2xl font-extrabold text-white hover:text-medical-100 transition-colors duration-200 tracking-wide">
                                         9246564433
                                     </a>
@@ -71,11 +71,11 @@ const Contact = () => {
                                     <Mail className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-sm md:text-xl mb-0.5">Clinic Timings</h4>
-                                    <p className="text-medical-100 text-xs md:text-sm leading-relaxed">
+                                    <h4 className="font-bold text-base md:text-xl mb-0.5">Clinic Timings</h4>
+                                    <p className="text-medical-100 text-base md:text-[17px] leading-relaxed">
                                         Monday-Saturday: 11 AM to 8 PM
                                     </p>
-                                    <p className="text-medical-100 text-xs md:text-sm leading-relaxed">
+                                    <p className="text-medical-100 text-base md:text-[17px] leading-relaxed">
                                         Sunday: 11 AM to 2 PM
                                     </p>
                                 </div>
@@ -94,23 +94,23 @@ const Contact = () => {
                         <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                                 <div>
-                                    <label htmlFor="name" className="block text-xs md:text-sm font-bold text-gray-700 mb-1.5">Full Name</label>
+                                    <label htmlFor="name" className="block text-base font-bold text-gray-700 mb-1.5">Full Name</label>
                                     {/* Mobile: py-3 text-sm rounded-xl shadow-sm; focus:ring-2 focus:ring-blue-400 */}
                                     <input
                                         type="text"
                                         id="name"
-                                        className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none text-sm md:text-base"
+                                        className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none text-base"
                                         placeholder="John Doe"
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="phone" className="block text-xs md:text-sm font-bold text-gray-700 mb-1.5">Phone Number</label>
+                                    <label htmlFor="phone" className="block text-base font-bold text-gray-700 mb-1.5">Phone Number</label>
                                     <input
                                         type="tel"
                                         id="phone"
-                                        className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none text-sm md:text-base"
+                                        className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none text-base"
                                         placeholder="9876543210"
                                         value={phone}
                                         onChange={(e) => setPhone(e.target.value)}
@@ -119,12 +119,12 @@ const Contact = () => {
                             </div>
 
                             <div>
-                                <label htmlFor="message" className="block text-xs md:text-sm font-bold text-gray-700 mb-1.5">Your Message</label>
+                                <label htmlFor="message" className="block text-base font-bold text-gray-700 mb-1.5">Your Message</label>
                                 {/* Mobile: h-24; Desktop: auto */}
                                 <textarea
                                     id="message"
                                     rows={4}
-                                    className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none resize-none text-sm md:text-base h-24 md:h-auto"
+                                    className="w-full px-4 py-3 md:py-4 bg-gray-50 border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 outline-none resize-none text-base h-24 md:h-auto"
                                     placeholder="How can we help you?"
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
@@ -132,7 +132,7 @@ const Contact = () => {
                             </div>
 
                             {/* Submit — w-full rounded-xl py-3 gradient */}
-                            <button type="submit" className="w-full py-3 md:py-5 bg-gradient-to-r from-medical-600 via-medical-650 to-medical-700 text-white text-sm md:text-base font-bold rounded-xl shadow-md hover:shadow-medical-600/40 hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-200 flex items-center justify-center gap-2.5 group">
+                            <button type="submit" className="w-full py-3 md:py-5 bg-gradient-to-r from-medical-600 via-medical-650 to-medical-700 text-white text-base font-bold rounded-xl shadow-md hover:shadow-medical-600/40 hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-200 flex items-center justify-center gap-2.5 group">
                                 <span>Submit Inquiry</span>
                                 <Send className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 group-hover:-translate-y-0.5 transition-transform duration-200" />
                             </button>
